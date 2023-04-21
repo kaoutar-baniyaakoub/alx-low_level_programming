@@ -6,14 +6,14 @@
 int main(void)
 {
 int n;
-int m = 97;
-for (n = 0; n < 9; n++)
+int m;
+for (n = 48; n <= 57; n++)
 {
-printf("%d", n);
-while (m <= 102)
+putchar(n);
+}
+for (m = 97; m <= 102; m++)
 {
 putchar(m);
-}
 }
 putchar('\n');
 return (0);
