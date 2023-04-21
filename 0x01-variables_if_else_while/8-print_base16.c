@@ -6,9 +6,14 @@
 int main(void)
 {
 int n;
-for (n = 0; n < 16; n++)
+int m = 97;
+for (n = 0; n < 9; n++)
 {
-putchar(n);
+printf("%d", n);
+while (m <= 102)
+{
+putchar(m);
+}
 }
 putchar('\n');
 return (0);
