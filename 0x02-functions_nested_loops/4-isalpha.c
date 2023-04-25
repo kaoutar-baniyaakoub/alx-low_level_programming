@@ -15,4 +15,5 @@ else
 {
 retutn (0);
 }
+_putchar('\n');
 }
